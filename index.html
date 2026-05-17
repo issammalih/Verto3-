@@ -423,6 +423,11 @@ footer{background:var(--dark);color:#fff;padding:60px 18px 30px;position:relativ
   .modal-content{border-radius:18px;max-width:460px}
   .modal-handle{display:none}
 }
+  .ind-card{background:#fff;border:1px solid var(--border);border-radius:16px;overflow:hidden;transition:all .35s cubic-bezier(.34,1.56,.64,1);cursor:pointer;box-shadow:var(--shadow);padding:0}
+.ind-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);border-color:var(--border-h)}
+.ind-img{width:100%;height:140px;object-fit:cover;display:block}
+.ind-body{padding:14px 12px}
+.ind-name{font-size:13px;font-weight:800;color:var(--dark);letter-spacing:-.3px}
 </style>
 </head>
 <body>
@@ -868,15 +873,16 @@ footer{background:var(--dark);color:#fff;padding:60px 18px 30px;position:relativ
     <h2 data-en="Industries We Serve" data-es="Industrias Que Servimos">Industries We Serve</h2>
     <p data-en="From beauty to lifestyle, hospitality to wellness — we partner with ambitious brands worldwide." data-es="Desde belleza hasta estilo de vida — colaboramos con marcas ambiciosas.">From beauty to lifestyle, hospitality to wellness — we partner with ambitious brands worldwide.</p>
   </div>
-  <div class="ind-grid">
-    <div class="ind-card reveal r1"><div class="ind-emoji">💄</div><div class="ind-name" data-en="Beauty" data-es="Belleza">Beauty</div></div>
-    <div class="ind-card reveal r1"><div class="ind-emoji">🌿</div><div class="ind-name" data-en="Wellness" data-es="Bienestar">Wellness</div></div>
-    <div class="ind-card reveal r2"><div class="ind-emoji">🏨</div><div class="ind-name" data-en="Hospitality" data-es="Hospitalidad">Hospitality</div></div>
-    <div class="ind-card reveal r2"><div class="ind-emoji">👗</div><div class="ind-name" data-en="Fashion" data-es="Moda">Fashion</div></div>
-    <div class="ind-card reveal r3"><div class="ind-emoji">🍽️</div><div class="ind-name" data-en="Food & Drink" data-es="Gastronomía">Food & Drink</div></div>
-    <div class="ind-card reveal r3"><div class="ind-emoji">💎</div><div class="ind-name" data-en="Lifestyle" data-es="Estilo de Vida">Lifestyle</div></div>
-    <div class="ind-card reveal r4"><div class="ind-emoji">🏠</div><div class="ind-name" data-en="Real Estate" data-es="Inmobiliaria">Real Estate</div></div>
-    <div class="ind-card reveal r4"><div class="ind-emoji">🛍️</div><div class="ind-name">E-commerce</div></div>
+<div class="ind-grid">
+  <div class="ind-card reveal r1"><img class="ind-img" src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400&q=80" alt="Beauty"><div class="ind-body"><div class="ind-name" data-en="Beauty" data-es="Belleza">Beauty</div></div></div>
+  <div class="ind-card reveal r1"><img class="ind-img" src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&q=80" alt="Wellness"><div class="ind-body"><div class="ind-name" data-en="Wellness" data-es="Bienestar">Wellness</div></div></div>
+  <div class="ind-card reveal r2"><img class="ind-img" src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&q=80" alt="Hospitality"><div class="ind-body"><div class="ind-name" data-en="Hospitality" data-es="Hospitalidad">Hospitality</div></div></div>
+  <div class="ind-card reveal r2"><img class="ind-img" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="Fashion"><div class="ind-body"><div class="ind-name" data-en="Fashion" data-es="Moda">Fashion</div></div></div>
+  <div class="ind-card reveal r3"><img class="ind-img" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80" alt="Food"><div class="ind-body"><div class="ind-name" data-en="Food & Drink" data-es="Gastronomía">Food & Drink</div></div></div>
+  <div class="ind-card reveal r3"><img class="ind-img" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&q=80" alt="Lifestyle"><div class="ind-body"><div class="ind-name" data-en="Lifestyle" data-es="Estilo de Vida">Lifestyle</div></div></div>
+  <div class="ind-card reveal r4"><img class="ind-img" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&q=80" alt="Real Estate"><div class="ind-body"><div class="ind-name" data-en="Real Estate" data-es="Inmobiliaria">Real Estate</div></div></div>
+  <div class="ind-card reveal r4"><img class="ind-img" src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=400&q=80" alt="E-commerce"><div class="ind-body"><div class="ind-name">E-commerce</div></div></div>
+</div>
   </div>
 </section>
 
